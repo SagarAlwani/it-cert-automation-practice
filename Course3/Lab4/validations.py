@@ -9,7 +9,7 @@ def validate_user(username, minlen):
     if minlen < 1:
         raise ValueError("minlen must be at least 1")
     
-    # We just hae to check first character should be Alphabet.
+    # We just hae to check first character should be Alphabet....
     if username[0].isalpha():
         return True
     return False
